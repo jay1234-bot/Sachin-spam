@@ -13,11 +13,11 @@ from telethon.tl.custom import button
 from os import execl, getenv
 from telethon.tl.functions.channels import LeaveChannelRequest
 
-pongg = "s ᴀ ɴ ᴀ ᴛ ᴀ ɴ ɪ"
+pongg = "➻❥⏤͟͞ᴋʀɪsʜᴀɴ💸⎯ꨄ"
 PIC = "https://telegra.ph/file/57d2b8165f3640f5a3a55.mp4"
-Alivemsg = "sᴀɴᴀᴛᴀɴɪ x ꜱᴘᴀᴍ ʜᴇʀᴇ"
+Alivemsg = "ꜱᴘᴀᴍ x ʙᴏᴛ ʜᴇʀᴇ"
 
-TEXT = f"▬▭▬▭▬▭▬▭▬▭▬▭▬▭\nㅤㅤ❖ | sᴀɴᴀᴛᴀɴɪ ꭙ ʙᴏᴛ | ❖\n▬▭▬▭▬▭▬▭▬▭▬▭▬▭\n❖ ᴘʏᴛʜᴏɴ ᴠᴇʀꜱɪᴏɴ : `4.15.7` \n❖ ʙᴏᴛ ᴠᴇʀꜱɪᴏɴ : `M4.0` \n❖ sᴜᴘᴘᴏʀᴛ : [sᴀɴᴀᴛᴀɴɪ ꭙ ʙᴏᴛ](https://t.me/ALL_SANATANI_BOT)\n❖ ᴄʜᴀɴɴᴇʟ : [4ˢᵗ ꭙ ғɪɢʜᴛᴇʀ](https://t.me/+cW07X2RM_IBmYTI1)\n❖ ᴏᴡɴᴇʀ : [sᴀᴄʜɪɴ sᴀɴᴀᴛᴀɴɪ](https://t.me/SACHIN_OWNER)\n▬▭▬▭▬▭▬▭▬▭▬▭▬▭"
+TEXT = f"▬▭▬▭▬▭▬▭▬▭▬▭▬▭\nㅤㅤ❖ | ꜱᴘᴀᴍ  ꭙ ʙᴏᴛ | ❖\n▬▭▬▭▬▭▬▭▬▭▬▭▬▭\n❖ ᴘʏᴛʜᴏɴ ᴠᴇʀꜱɪᴏɴ : `4.15.7` \n❖ ʙᴏᴛ ᴠᴇʀꜱɪᴏɴ : `M4.0` \n❖ sᴜᴘᴘᴏʀᴛ : [ꜱᴘᴀᴍ  ꭙ ʙᴏᴛ](https://t.me/+PC-rxWT0YD1jM2Q9)\n❖ ᴄʜᴀɴɴᴇʟ : [ꜱᴘᴀᴍ  ꭙ ʙᴏᴛ](https://t.me/+PC-rxWT0YD1jM2Q9)\n❖ ᴏᴡɴᴇʀ : [➻❥⏤͟͞ᴋʀɪsʜᴀɴ💸⎯ꨄ](https://t.me/CENSORED_POLITICSS)\n▬▭▬▭▬▭▬▭▬▭▬▭▬▭"
                                   
 @X1.on(events.NewMessage(incoming=True, pattern=r"\%salive(?: |$)(.*)" % hl))
 @X2.on(events.NewMessage(incoming=True, pattern=r"\%salive(?: |$)(.*)" % hl))
@@ -36,8 +36,8 @@ async def alive(event):
                                   caption=TEXT,
                                   buttons=[
         [
-        Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/ALL_SANATANI_BOT"),
-        Button.url("• ꜱᴜᴘᴘᴏʀᴛ •", "https://t.me/+cW07X2RM_IBmYTI1")
+        Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/+PC-rxWT0YD1jM2Q9"),
+        Button.url("• ꜱᴜᴘᴘᴏʀᴛ •", "https://t.me/+PC-rxWT0YD1jM2Q9")
         ],
         ]
         )
@@ -161,10 +161,10 @@ async def leave(e):
 async def ping(e):
     if e.sender_id in SUDO_USERS:
         start = datetime.now()
-        KEX = await e.reply(f"❖ | sᴀɴᴀᴛᴀɴɪ ꭙ ʙᴏᴛ | ❖")
+        KEX = await e.reply(f"❖ | ꜱᴘᴀᴍ  ꭙ ʙᴏᴛ | ❖")
         end = datetime.now()
         mp = (end - start).microseconds / 10000
-        await KEX.edit(f"❖ | sᴀɴᴀᴛᴀɴɪ ꭙ ʙᴏᴛ | ❖\n❖ ᴛʜᴇ ᴍᴜsᴛ ᴘᴏᴡᴇʀғᴜʟ ʙᴏᴛ\n❖ ᴘɪɴɢ ᴘᴏɴɢ `{mp} ᴍꜱ`") 
+        await KEX.edit(f"❖ | ꜱᴘᴀᴍ  ꭙ ʙᴏᴛ | ❖\n❖ ᴛʜᴇ ᴍᴜsᴛ ᴘᴏᴡᴇʀғᴜʟ ʙᴏᴛ\n❖ ᴘɪɴɢ ᴘᴏɴɢ `{mp} ᴍꜱ`") 
 
 @X1.on(events.NewMessage(incoming=True, pattern=r"\%ssudo(?: |$)(.*)" % hl))
 @X2.on(events.NewMessage(incoming=True, pattern=r"\%ssudo(?: |$)(.*)" % hl))
