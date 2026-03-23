@@ -4,7 +4,7 @@ from config import X1, X2, X3, X4, X5, X6, X7, X8, X9, X10
 
 START_OP = [
     [
-        Button.url("🍁 sᴀᴄʜɪɴ", "➻❥⏤͟͞ᴋʀɪsʜᴀɴ💸⎯ꨄ"),
+        Button.url("➻❥⏤͟͞ᴋʀɪsʜᴀɴ💸⎯ꨄ", "https://t.me/censored_politicss"),
         Button.url("ᴜsᴇʀʙᴏᴛ 🕸️", "https://t.me/cutieee_musicbot")
     ],
     [
